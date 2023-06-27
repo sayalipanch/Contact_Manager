@@ -1,6 +1,11 @@
 # Getting Started
 
-Welcome to your new project.
+For frontend:
+- cd app
+- npm start
+
+For backend:
+- In the root folder: cds watch
 
 It contains these folders and files, following our recommended project layout:
 
