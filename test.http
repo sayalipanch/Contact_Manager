@@ -1,0 +1,21 @@
+GET http://localhost:4004/contacts/Contact?
+{"name" :}
+
+#####
+
+POST http://localhost:4004/contacts/Contact
+Content-Type: application/json
+
+{"name": "pqabcr", "email":"pqr@gmail.com"}
+
+#####
+
+DELETE http://localhost:4004/contacts/Contact
+
+{"ID": "59f3f2c1-f4ba-498a-b6b3-478c53909384"}
+
+####
+POST http://localhost:4004/contacts/getID
+Content-Type: application/json
+
+{"name": "AA"}
